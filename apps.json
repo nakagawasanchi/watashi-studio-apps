@@ -3,14 +3,40 @@
     "id": "shiritori",
     "name": "しりとり",
     "tagline": "写真をとうろくして あそべる しりとり",
+    "description": "おうちにあるものや すきなものの写真をとうろくして、自分だけのしりとりであそべます。「わたし」や家族が登場するから、ことばあそびがもっと楽しくなります。",
+    "icon": "images/icon-shiritori.png",
     "appStoreURL": "",
-    "iconSystemName": "textformat.abc"
+    "iconSystemName": "textformat.abc",
+    "screenshots": []
   },
   {
     "id": "watashidj",
     "name": "わたしDJ",
     "tagline": "ボタンをならして DJ ごっこ",
+    "description": "自分の声や すきな音を録音してボタンにセット。タップするたびに「わたし」の声がなって、はじめてのDJ気分。家族の声をいれて みんなで盛り上がれます。",
+    "icon": "images/icon-watashidj.png",
     "appStoreURL": "",
-    "iconSystemName": "music.note"
+    "iconSystemName": "music.note",
+    "screenshots": []
+  },
+  {
+    "id": "roulette",
+    "name": "ルーレット",
+    "tagline": "わたし・パパ・ママ だれにとまるかな？",
+    "description": "家族や友だちの写真をのせて、くるくるルーレット。「つぎは だれ？」をワクワク決められる、おかたづけや順番ぎめにもぴったりのアプリです。",
+    "icon": "images/icon-roulette.png",
+    "appStoreURL": "",
+    "iconSystemName": "circle.grid.cross",
+    "screenshots": []
+  },
+  {
+    "id": "mochimono",
+    "name": "もちものリスト",
+    "tagline": "いちしゅうかんの もちもの チェック",
+    "description": "ようび ごとの もちものを 自分でチェック。絵とことばで わかりやすいから、お子様ひとりでも あしたの準備ができるようになります。",
+    "icon": "images/icon-mochimono.png",
+    "appStoreURL": "",
+    "iconSystemName": "checklist",
+    "screenshots": []
   }
 ]
