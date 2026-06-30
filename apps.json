@@ -1,0 +1,16 @@
+[
+  {
+    "id": "shiritori",
+    "name": "しりとり",
+    "tagline": "写真をとうろくして あそべる しりとり",
+    "appStoreURL": "",
+    "iconSystemName": "textformat.abc"
+  },
+  {
+    "id": "watashidj",
+    "name": "わたしDJ",
+    "tagline": "ボタンをならして DJ ごっこ",
+    "appStoreURL": "",
+    "iconSystemName": "music.note"
+  }
+]
