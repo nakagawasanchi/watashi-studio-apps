@@ -132,6 +132,26 @@
     box-shadow: 0 6px 14px rgba(95,184,255,.4);
   }
 
+  /* ---------- Creator ---------- */
+  .creator {
+    background: var(--card); border: 2px solid var(--border); border-radius: 24px;
+    padding: 30px 26px; box-shadow: 0 8px 24px rgba(255,210,63,.12);
+  }
+  .creator p { margin: 0 0 1.1em; color: var(--ink); }
+  .creator p:last-child { margin-bottom: 0; }
+  .creator .lead { color: var(--sub); }
+  .creator .steps-read {
+    margin: 0 0 1.1em; padding-left: 0; list-style: none;
+    display: grid; gap: 10px;
+  }
+  .creator .steps-read li {
+    position: relative; padding-left: 1.5em; color: var(--ink);
+  }
+  .creator .steps-read li::before {
+    content: "🌱"; position: absolute; left: 0; top: 0;
+  }
+  .creator .closing { font-weight: 700; }
+
   /* ---------- Footer ---------- */
   footer {
     text-align:center; padding: 34px 18px 48px; color: var(--sub); font-size:.9rem;
@@ -215,6 +235,26 @@
         <span class="badge">近日 App Store 公開予定</span>
       </article>
 
+    </div>
+  </div>
+</section>
+
+<!-- ===== Message from the creator ===== -->
+<section>
+  <div class="wrap">
+    <h2 class="section-title">制作者より</h2>
+    <div class="creator">
+      <p class="lead">病院の待合室。大切なお客様が来ているとき。ほんの少しの間だけ、子どもに集中していてほしい——そんな瞬間、ありますよね。</p>
+      <p>YouTubeもたまにはいいけれど、できればほんの少しでも知育になるようなものを、気軽に楽しめたら。</p>
+      <p>そう思って子ども向けアプリを入れてみても、ハマるのは最初の一瞬だけ。すぐに飽きられてしまう……。</p>
+      <p>そんな実体験から、このシリーズは生まれました。</p>
+      <p>「わたしも出てくる」シリーズのアプリは、工夫次第で何度でも「復活」します（笑）</p>
+      <ul class="steps-read">
+        <li>最初は、お子さんの名前が登場するだけでびっくり、大はしゃぎ。</li>
+        <li>次に、パパ・ママ・おじいちゃん・おばあちゃんを入れてみましょう。</li>
+        <li>さらに、保育園の先生やお友だち、好きなキャラクター、人やキャラクター以外の「モノ」、そして一周まわって——元気そうにしているお子さん自身の写真を「げんき！」という概念にしてみたり。</li>
+      </ul>
+      <p class="closing">楽しみ方は、あなたとお子様次第で無限大です（笑）</p>
     </div>
   </div>
 </section>
