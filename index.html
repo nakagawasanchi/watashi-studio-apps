@@ -109,14 +109,16 @@
   .card-desc { color: var(--sub); font-size: .95rem; margin: 10px 0 0; }
   .badge {
     display:inline-block; align-self:flex-start; margin-top: 14px;
-    background: var(--chip); color: var(--chip-tx); font-weight: 800;
+    background: #e9e9ee; color: #7a7a85; font-weight: 800;
     font-size: .8rem; padding: 5px 12px; border-radius: 999px;
   }
   .badge::before { content: "🔜 "; }
   .badge-live {
-    text-decoration: underline; text-underline-offset: 2px;
-    cursor: pointer;
+    background: #34a853; color: #fff;
+    text-decoration: none; cursor: pointer;
+    box-shadow: 0 3px 8px rgba(52,168,83,.30);
   }
+  .badge-live:hover { background: #2d9249; }
   .badge-live::before { content: "📲 "; }
 
   /* ---------- Safety ---------- */
