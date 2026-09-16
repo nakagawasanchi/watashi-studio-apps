@@ -7,6 +7,7 @@
     "icon": "images/icon-shiritori.png",
     "appStoreURL": "https://apps.apple.com/jp/app/id6788782246",
     "iconSystemName": "textformat.abc",
+    "iconResource": "appicon_shiritori",
     "screenshots": []
   },
   {
@@ -17,6 +18,7 @@
     "icon": "images/icon-watashidj.png",
     "appStoreURL": "https://apps.apple.com/jp/app/id6788814425",
     "iconSystemName": "music.note",
+    "iconResource": "appicon_watashidj",
     "screenshots": []
   },
   {
@@ -27,6 +29,7 @@
     "icon": "images/icon-roulette.png",
     "appStoreURL": "https://apps.apple.com/jp/app/id6788821619",
     "iconSystemName": "circle.grid.cross",
+    "iconResource": "appicon_roulette",
     "screenshots": []
   },
   {
@@ -37,6 +40,51 @@
     "icon": "images/icon-mochimono.png",
     "appStoreURL": "https://apps.apple.com/jp/app/id6788831669",
     "iconSystemName": "checklist",
+    "iconResource": "appicon_mochimono",
+    "screenshots": []
+  },
+  {
+    "id": "aisatsu",
+    "name": "あいさつしよう",
+    "tagline": "むらの みんなに あいさつ できるかな？",
+    "description": "家族や友だちの顔が登場する村で、あいさつの練習。「おはよう」「ありがとう」を3択でえらんで、じょうずにあいさつできたら みんなが よろこびます。",
+    "icon": "images/icon-aisatsu.png",
+    "appStoreURL": "",
+    "iconSystemName": "hand.wave.fill",
+    "iconResource": "appicon_aisatsu",
+    "screenshots": []
+  },
+  {
+    "id": "tashizan",
+    "name": "たしざん",
+    "tagline": "「わたし」といっしょに たしざん れんしゅう",
+    "description": "自分の写真がキャラクターになって、たしざんをいっしょに練習。できたら ほめてもらえるから、はじめての さんすうが楽しくなります。",
+    "icon": "images/icon-tashizan.png",
+    "appStoreURL": "",
+    "iconSystemName": "plus.circle.fill",
+    "iconResource": "appicon_tashizan",
+    "screenshots": []
+  },
+  {
+    "id": "concert",
+    "name": "コンサート",
+    "tagline": "かぞくの かおで がっそう コンサート",
+    "description": "曲と楽器をえらんで、家族の顔のキャラクターが合奏。まくがあがって、自分たちのコンサートが始まります。",
+    "icon": "images/icon-concert.png",
+    "appStoreURL": "",
+    "iconSystemName": "music.mic",
+    "iconResource": "appicon_concert",
+    "screenshots": []
+  },
+  {
+    "id": "watashibirthday",
+    "name": "バースデーソング",
+    "tagline": "なまえで うたう バースデーカード",
+    "description": "お子様の名前を入れると、子ども合唱団が名前入りのバースデーソングを歌ってくれるカードアプリです。",
+    "icon": "images/icon-birthday.png",
+    "appStoreURL": "",
+    "iconSystemName": "gift.fill",
+    "iconResource": "appicon_watashibirthday",
     "screenshots": []
   }
 ]
